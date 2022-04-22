@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript async="false" continueOnError="false" enabled="true" timeLimit="200" name="RequestPreJSONThreat">
+    <DisplayName>RequestPreJSONThreat</DisplayName>
+    <Properties/>
+    <ResourceURL>jsc://RequestPreJSONThreat.js</ResourceURL>
+</Javascript>

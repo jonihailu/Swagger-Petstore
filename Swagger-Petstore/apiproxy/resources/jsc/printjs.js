@@ -1,0 +1,1 @@
+var request = context.getVariable("request.content"),logMessage = request.replace(/(\r\n|\n|\r)/gm,""); print(logMessage);    

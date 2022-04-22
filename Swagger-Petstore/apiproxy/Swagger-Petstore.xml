@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Swagger-Petstore">
+    <Basepaths>/swagger-petstore</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624978887220</CreatedAt>
+    <CreatedBy>dayohannesra@gmail.com</CreatedBy>
+    <Description>This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.</Description>
+    <DisplayName>Swagger-Petstore</DisplayName>
+    <LastModifiedAt>1650304291696</LastModifiedAt>
+    <LastModifiedBy>hailu.yohannes@yahoo.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:6538b1c7e56d64bd2370bd13db39e95947fa4d6dc34b55737a1d48c191c006c54f929a8d55d2a81a5da215b5d52c000fb378f8cffb52906bd1460e179cb9da8f:us-east-1</ManifestVersion>
+    <Policies>
+        <Policy>JSON-Threat-Protection-1</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>JavaScript-2</Policy>
+        <Policy>JavaScript-3</Policy>
+        <Policy>JavaScript-4</Policy>
+        <Policy>JavaScript-5</Policy>
+        <Policy>RequestPreJSONThreat</Policy>
+        <Policy>iterate-attributes</Policy>
+        <Policy>printjs</Policy>
+        <Policy>printpayload</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+        <Resource>jsc://JavaScript-1.js</Resource>
+        <Resource>jsc://JavaScript-2.js</Resource>
+        <Resource>jsc://JavaScript-3.js</Resource>
+        <Resource>jsc://JavaScript-4.js</Resource>
+        <Resource>jsc://JavaScript-5.js</Resource>
+        <Resource>jsc://RequestPreJSONThreat.js</Resource>
+        <Resource>jsc://iterate-attributes.js</Resource>
+        <Resource>jsc://printjs.js</Resource>
+        <Resource>jsc://printpayload.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

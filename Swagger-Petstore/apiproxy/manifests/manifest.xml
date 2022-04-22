@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JSON-Threat-Protection-1" version="SHA-512:22d7bc3c235902cf738a2625e1ffd05e29e39c5c22d3ea3cab660868d2244889ca7ce366755d9bd8cf85e5ef2702635d0759c7a157e5c91f98fea3e43f7d29b7"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:fd13d1a0f1a0cba4e4a772579e8aaefe24844e434802116adc6cd965e9ed62c71720b5517e03ba3c45d8791b02fc6785b8acf2d8a6dfa1635eed1560187dce05"/>
+        <VersionInfo resourceName="JavaScript-2" version="SHA-512:73ea3fb52d35489f178b582d4f427fa1ee5afe9fad304c06fbc2841c1a6f64dcc81654eadae77586489eaed69dfe5e94d3f24d4fee26873c0dd691adcce08562"/>
+        <VersionInfo resourceName="JavaScript-3" version="SHA-512:a4506dd6ce0528ee0edfe8f29ec39b0561abca7cfbc3fd7712787673a8c9160dc5136ab5774947c0a14887556e6f45ef3bd2fd19e7aaa9888318f8cd5470e69d"/>
+        <VersionInfo resourceName="JavaScript-4" version="SHA-512:6a15821da4a3dc031ccd4b5932e907222ff2a6968ba080f4e8148f9f62dd223a0532c1d3c2d2e26d6ff2e24b5331681664301d75588cd328422698f36091ac0e"/>
+        <VersionInfo resourceName="JavaScript-5" version="SHA-512:21bc2ccb8fe02e8ab3107900a87306d0aff62a2ab1d5090a604d869593d7ddc19a41557457d0920d261a07e43a586822b3a73abc4e62cbb8bfb5a4993d556178"/>
+        <VersionInfo resourceName="RequestPreJSONThreat" version="SHA-512:55b2944be5861e6bbcb014983f64dafc5ebe2561b805c0a5b71ec3737aa39ff7d7bf6f72c0d6fc2b308853806296fb8b2b7db96505f0578671484635adbd76b7"/>
+        <VersionInfo resourceName="iterate-attributes" version="SHA-512:cb1557485257f8339bae85c2e4e688956c5f478072766681f3a9cc300f0e7001267c9a13bd4effd554ecf3488299424d81765c0bb5cdd1cf0ce88c5bd027bb6c"/>
+        <VersionInfo resourceName="printjs" version="SHA-512:4b9ca803e06c6c521b9115176b2867c4e716b2e39e476d9e3bcd1ffa94edd75c966a143ede610cfbbfebeec217be1e8c16d52239707e936dcb0c61783840263a"/>
+        <VersionInfo resourceName="printpayload" version="SHA-512:e6cc159223f0081dc48c2da40389568b9f1acc45a1fdd4f6731cf765b8312c6fea7654f39fcaa7de91926f58c3060b02e436b356266e614785da56d1eaa10a68"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:c8deebe7f5d8e0b4bb79dcffe9bcaddcbb74af9c2a3a1e4043659591dae64bcd15a120671fa701d64d3d16559a8e3e82861e801e5134073f635b6428c9361dfd"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:1aa6bb2a939142ef1609b384da8a404505d76c445024d223800ba2b9b4c5403c7e48f12fff5d31ab95794da4d1489e68cf35bb9d0d4ec3a2362e183588b77fe4"/>
+        <VersionInfo resourceName="jsc://JavaScript-2.js" version="SHA-512:c8574826ac09f4af36309fd6bd35ad9e5390203287b9e9d454bfa829fed7f4a8493335cdeb0f19c717e1f6749f1c2a598693cc48d6f3a389458c53d7fec9a3bd"/>
+        <VersionInfo resourceName="jsc://JavaScript-3.js" version="SHA-512:9a6f511c3a064e481043b72b8c7740a91ccc10bad7631bb19f3338506d09665799bd05d6fa2aeb197faf92c30cb46ea6e2f165b3030a2985cc0131c5cc931cac"/>
+        <VersionInfo resourceName="jsc://JavaScript-4.js" version="SHA-512:ffd9c96647e94d122cbc951d2b3f2f6fc266e720d581b8e73b31b7efed443da07ceac9e9602fab15ded8d7a25e2dbe5c6bf00920db3ff6ce43aca1518b52fff9"/>
+        <VersionInfo resourceName="jsc://JavaScript-5.js" version="SHA-512:83f4836068c925027bbbf0f85ec4be87e1f76a458ae018f3b48ea13abfd95e28af1f52e1a960905e0ce840f23e48cf7f7d87a39d170ec6c6a5fae83d8922a35c"/>
+        <VersionInfo resourceName="jsc://RequestPreJSONThreat.js" version="SHA-512:2dc9538ee7fe78584d9105f9223345e8e19c7d7635857640333a76f3d4552144d7b680653309d53c3131dcd6809ea3d7661969684046e5afa8b68f2a450c4dcd"/>
+        <VersionInfo resourceName="jsc://iterate-attributes.js" version="SHA-512:19813c1a76d228778f691ea48602e32a965d24686708008256bbc7e9d9cd844fe48264d240ad2c290d8d7e6c8142744a5a9c3774beb56dd71a24103a608db5c7"/>
+        <VersionInfo resourceName="jsc://printjs.js" version="SHA-512:63a614e2cf95d10dca76b66744ce2e3d9f87ecc7fe1c6d62d9e9cf1547cdff319aa59165466b56ccbdd88dfcea2380dad5482d894865af5eb20e9d6b56a4d906"/>
+        <VersionInfo resourceName="jsc://printpayload.js" version="SHA-512:d4ecbb4dec3ab90199801333e664a72859c41d349b4915857b145167dab37d0ada0be89f27903a760b28da7d6ae2e3792f739214eb70b61fad84b6f28bb13f89"/>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:be7f5a0b88cd6dc3a278e206c0bf792cf496b99f38afebf0511adb9f3f77b22d12a7a828897e6f77e339b304b7d4dc097324c77a59093b3b5489fe27709339b8"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:846039f4fd767bf3e252e6316a6719354ffa9d5a3a0f1eee1c288a7b52d0e318efa7dbf4ac36b972204b1ad92c9cc0ecd66adcf86639de27cf83d90e7a3d4484"/>
+    </TargetEndpoints>
+</Manifest>
